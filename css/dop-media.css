@@ -1,0 +1,42 @@
+@media (max-width:550px) {
+    .block-tovars h4 {
+        font-size: 32px;
+    }
+    .price-style {
+        font-size: 22px;
+    }
+    .from {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .block-tovars p {
+        font-size: 13px;
+    }
+}
+@media (max-width:510px) {
+    .card-tovar:hover .button-block{
+        top: 70%;
+    }
+    .transition {
+        position: absolute;
+        top: 60%;
+        transition: 0.3s ease-in-out all;
+    }
+    .card-tovar:hover .transition {
+        top: 50%;
+    }
+    .button-block {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 100%;
+        transition: 0.3s ease-in-out all;
+    }
+    .card-flex p {
+        font-size: 20px;
+        font-weight: bold;
+        color: #C5A58A;
+        margin-bottom: 15px;
+        transition: 0.3s ease-in all;
+    }
+}

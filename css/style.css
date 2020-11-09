@@ -109,8 +109,6 @@ header {
     margin-left: 5px;
     top: -5px;
 }
-
-
 .link:hover {
     background-size: 100% 2px;
     animation: color .1s ease-out 0.2s forwards;
@@ -214,6 +212,18 @@ height: 770px;
     position: absolute;
     width: 90%;
     top: 110px;
+    animation-name:menu;
+    animation-duration: .7s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode:forwards;
+}
+@keyframes menu {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 .grid-menu {
     position: absolute;
@@ -226,6 +236,11 @@ height: 770px;
     -webkit-box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.5);
     box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.5);
+}
+.nonactive {
+    display: none;
+    opacity: 0;
+    transition: .7s all;
 }
 .list-tovars {
     width: 100%;
@@ -646,10 +661,6 @@ transform: scale(1.05);
 background-color: black;
     
 } 
-.nonactive {
-    opacity: 0;
-    transition: .7s all;
-}
 .order-block {
     margin-top: 60px;
     background-color: rgba(233, 233, 233,0.5);
@@ -883,7 +894,7 @@ background-color: black;
     border:none;
     padding-top: 10px;
     margin-left: -35px;
-    font-size: 1.4vw;
+    font-size: 25px;
 }
 .form__body button:hover {
     color: #614426;
@@ -925,16 +936,13 @@ box-shadow: 0px 0px 4px 0px rgba(186,186,186,1);
     display: grid;
     background-color: white;
     height: 350px;
-
 }
 .carosuel-tovars {
-
  font-family: 'Noto Sans JP', sans-serif;
  width: 100%;
   margin-top: 80px;
 }
 .carosuel-tovars div {
-
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -944,9 +952,7 @@ box-shadow: 0px 0px 4px 0px rgba(186,186,186,1);
 }
 .card-flex {
     display: flex;
-
     flex-direction: column;
-
 }
 .card-flex img {
     margin-top: 30px;
@@ -1004,12 +1010,8 @@ box-shadow: 0px 0px 4px 0px rgba(186,186,186,1);
     -moz-box-shadow: 0px 0px 10px 0px rgba(197,165,138,0.6);
     box-shadow: 0px 0px 10px 0px rgba(197,165,138,0.6);
 }
-.slick-slide:active {
-   outline: none;
-}
-.slick-slide:focus {
-    outline: none;
- }
- .slick-slide {
-
- }
+.rights {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+} 

@@ -1,11 +1,6 @@
 let blockMenu = document.querySelector('.menu');
 let openBlock = document.querySelector('.home');
 
-blockMenu.addEventListener('mouseleave', show);
-blockMenu.addEventListener('mouseenter', hide);
-openBlock.addEventListener('mouseleave', show);
-openBlock.addEventListener('mouseenter', hide);
-
 function hide() {
   blockMenu.classList.remove('nonactive')
 }
@@ -13,6 +8,12 @@ function hide() {
 function show() {
   blockMenu.classList.add('nonactive')
 }
+
+blockMenu.addEventListener('mouseleave', show);
+blockMenu.addEventListener('mouseenter', hide);
+openBlock.addEventListener('mouseleave', show);
+openBlock.addEventListener('mouseenter', hide);
+
 
 var goTopBtn = document.querySelector('.back_to_top');
 
@@ -66,6 +67,7 @@ $(function(){
 
  $('.responsive').slick({
   dots: true,
+  arrows: false,
   infinite: false,
   speed: 300,
   slidesToShow: 4,
@@ -92,8 +94,8 @@ $(function(){
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToShow: 1,
+        slidesToScroll: 1
       }
     },
     {
