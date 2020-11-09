@@ -6,24 +6,20 @@
 ::root {
     --main-color: #614426; 
 }
-
-
 @font-face {
     font-family: 'coral_wavesregular';
-    src: url('/fonts/18800-webfont.woff2') format('woff2'),
-         url('/fonts/18800-webfont.woff') format('woff');
+    src: url('../fonts/18800-webfont.woff2') format('woff2'),
+         url('../fonts/18800-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'aloja_lighregular';
-    src: url('/fonts/aloja-light-webfont.woff2') format('woff2'),
-         url('/fonts/aloja-light-webfont.woff') format('woff');
+    src: url('../fonts/aloja-light-webfont.woff2') format('woff2'),
+         url('../fonts/aloja-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
-
 * {
     margin: 0px;
     padding: 0px;
@@ -149,7 +145,7 @@ header {
 height: 770px;
 }
 .div-main-page {
-    background-image: url(/img/main-page.jpg);
+    background-image: url(../img/main-page.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: inherit;
@@ -321,7 +317,7 @@ figcaption {
     font-family: 'Montserrat', sans-serif;
 }
 .special-two {
-   background-image: url(/img/specia;.jpg);
+   background-image: url(../img/specia;.jpg);
    background-size: cover;
    background-position: center;
    display: flex;
@@ -331,7 +327,7 @@ figcaption {
    padding-bottom: 20%;
 }
 .special {
-    background-image: url(/img/photo-two.jpg);
+    background-image: url(../img/photo-two.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -350,7 +346,7 @@ figcaption {
     font-size: 1.6vw;
 }
 .main-special {
-    background-image: url(/img/coff.jpg);
+    background-image: url(../img/coff.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -417,7 +413,7 @@ figcaption {
     background-color: #C5A58A;
 }
 .tovar-01 {
-    background-image: url(/img/latte.jpg);
+    background-image: url(../img/latte.jpg);
     background-position: center;
     background-size: cover;
     margin: 30px;
@@ -433,7 +429,7 @@ figcaption {
    margin: 0px 0px 0px 7%;
 }
 .tovar-02 {
-    background-image: url(/img/ice.jpg);
+    background-image: url(../img/ice.jpg);
     background-position: center;
     background-size: cover;
     margin: 30px;
@@ -449,7 +445,7 @@ figcaption {
    margin: 0px 0px 0px 7%;
 }
 .tovar-03 {
-    background-image: url(/img/pp.jpg);
+    background-image: url(../img/pp.jpg);
     background-position: center;
     background-size: cover;
     margin: 30px;
@@ -465,7 +461,7 @@ figcaption {
    margin: 0px 0px 0px 7%;
 }
 .tovar-04 {
-    background-image: url(/img/cok.jpg);
+    background-image: url(../img/cok.jpg);
     background-position: center;
     background-size: cover;
     margin: 30px;
@@ -481,7 +477,7 @@ figcaption {
    margin: 0px 0px 0px 7%;
 }
 .tovar-05 {
-    background-image: url(/img/dik.jpg);
+    background-image: url(../img/dik.jpg);
     background-position: center;
     background-size: cover;
     margin: 30px;
@@ -497,7 +493,7 @@ figcaption {
    margin: 0px 0px 0px 7%;
 }
 .tovar-06 {
-    background-image: url(/img/ph.jpg);
+    background-image: url(../img/ph.jpg);
     background-position: center;
     background-size: cover;
     margin: 30px;
@@ -976,7 +972,6 @@ box-shadow: 0px 0px 4px 0px rgba(186,186,186,1);
 .info {
     font-size: 15px;
 }
-
 .link-button {
     text-decoration: none;
     width: 100px;
